@@ -13,5 +13,6 @@ export const config: Readonly<{ [prop: string]: any } & CleanedEnvAccessors> =
       LOG_LEVEL: str({
         choices: ['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'],
       }),
+      MONGO_DB_URL: str(),
     },
   );
