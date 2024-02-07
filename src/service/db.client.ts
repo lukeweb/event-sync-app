@@ -22,7 +22,7 @@ export class DbClient {
   }
 
   async getConnection(): Promise<Connection> {
-      return this.connection;
+    return this.connection;
   }
 
   async closeConnection(): Promise<void> {
